@@ -1,7 +1,5 @@
-# Polarization symmetry breaking in spheroidal zeolite-doped dielectric films
-
-Computational pipeline for the paper *When shape and alignment conspire: polarization
-in spheroidal zeolite films.*
+#  Computational pipeline for the paper *When shape and alignment conspire: polarization
+in spheroidal zeolite films
 
 The study compares a rigorous single-spheroid **T-matrix** computation against a fast
 **equivalent-sphere Mie** model (carrying a quasi-static depolarization-factor shape
