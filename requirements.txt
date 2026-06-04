@@ -1,0 +1,18 @@
+# Python dependencies (install with: pip install -r requirements.txt)
+# Tested with Python 3.12 on Ubuntu 24.04.
+#
+# Pure-pip packages:
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+miepython>=3.0
+h5py>=3.10
+mpi4py>=3.1
+
+# NOT installable via pip — built from source by scripts/build_pytmatrix.sh
+#   pytmatrix   (wraps Mishchenko's ampld.lp.f; needs a Fortran toolchain + f2py/meson)
+#
+# NOT installable via pip — built from source by scripts/build_meep.sh
+#   meep        (FDTD; needs libctl, HDF5, guile, GSL, harminv, FFTW, SWIG via apt)
+#
+# See README.md for the full build recipe and why these two are source-only.
